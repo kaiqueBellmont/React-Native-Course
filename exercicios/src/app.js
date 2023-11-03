@@ -1,8 +1,14 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
+import Primeiro from './components/Primeiro'
 
 const App = () => {
-    return <Text>Primeiro Component</Text>
+    return (
+        <View>
+            <Text>Primeiro Component</Text>
+            <Primeiro />
+        </View>
+    )
 }
 
 export default App
